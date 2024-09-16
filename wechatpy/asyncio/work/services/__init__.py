@@ -4,9 +4,9 @@ import time
 import logging
 import httpx
 
-from aiowe.client.base import BaseWeChatClient
-from aiowe.exceptions import WeChatClientException
-from aiowe.work.services import api
+from wechatpy.asyncio.client.base import BaseWeChatClient
+from wechatpy.asyncio.exceptions import WeChatClientException
+from wechatpy.asyncio.work.services import api
 
 logger = logging.getLogger(__name__)
 

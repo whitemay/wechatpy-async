@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
-from aiowe.client.api.merchant.category import MerchantCategory
-from aiowe.client.api.merchant.stock import MerchantStock
-from aiowe.client.api.merchant.express import MerchantExpress
-from aiowe.client.api.merchant.group import MerchantGroup
-from aiowe.client.api.merchant.shelf import MerchantShelf
-from aiowe.client.api.merchant.order import MerchantOrder
-from aiowe.client.api.merchant.common import MerchantCommon
+from wechatpy.asyncio.client.api.merchant.category import MerchantCategory
+from wechatpy.asyncio.client.api.merchant.stock import MerchantStock
+from wechatpy.asyncio.client.api.merchant.express import MerchantExpress
+from wechatpy.asyncio.client.api.merchant.group import MerchantGroup
+from wechatpy.asyncio.client.api.merchant.shelf import MerchantShelf
+from wechatpy.asyncio.client.api.merchant.order import MerchantOrder
+from wechatpy.asyncio.client.api.merchant.common import MerchantCommon
 
 
 class WeChatMerchant(BaseWeChatAPI):

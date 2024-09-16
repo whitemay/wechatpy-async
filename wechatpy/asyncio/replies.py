@@ -11,7 +11,7 @@
 import time
 import xmltodict
 
-from aiowe.fields import (
+from wechatpy.asyncio.fields import (
     StringField,
     IntegerField,
     ImageField,
@@ -22,7 +22,7 @@ from aiowe.fields import (
     Base64EncodeField,
     HardwareField,
 )
-from aiowe.messages import BaseMessage, MessageMetaClass
+from wechatpy.asyncio.messages import BaseMessage, MessageMetaClass
 
 
 REPLY_TYPES = {}

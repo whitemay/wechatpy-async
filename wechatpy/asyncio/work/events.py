@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from aiowe.fields import BaseField, FloatField, IntegerField, StringField
-from aiowe.messages import BaseMessage
+from wechatpy.asyncio.fields import BaseField, FloatField, IntegerField, StringField
+from wechatpy.asyncio.messages import BaseMessage
 
 EVENT_TYPES = {}
 

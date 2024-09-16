@@ -14,7 +14,7 @@ import base64
 import copy
 from typing import Any, Callable, Optional
 
-from aiowe.utils import to_text, to_binary, ObjectDict, timezone
+from wechatpy.asyncio.utils import to_text, to_binary, ObjectDict, timezone
 
 
 default_timezone = timezone("Asia/Shanghai")

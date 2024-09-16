@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe.exceptions import WeChatClientException
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.exceptions import WeChatClientException
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatMenu(BaseWeChatAPI):

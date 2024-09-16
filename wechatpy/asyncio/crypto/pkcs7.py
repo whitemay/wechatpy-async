@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from aiowe.utils import to_binary
+from wechatpy.asyncio.utils import to_binary
 
 
 class PKCS7Encoder:

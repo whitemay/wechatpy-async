@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from operator import itemgetter
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatEMail(BaseWeChatAPI):

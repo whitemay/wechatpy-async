@@ -13,7 +13,7 @@ from urllib.parse import quote
 
 import httpx
 
-from aiowe.exceptions import WeChatOAuthException
+from wechatpy.asyncio.exceptions import WeChatOAuthException
 
 
 class WeChatOAuth:

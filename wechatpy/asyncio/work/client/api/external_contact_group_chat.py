@@ -3,7 +3,7 @@ from typing import List
 
 from optionaldict import optionaldict
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatExternalContactGroupChat(BaseWeChatAPI):

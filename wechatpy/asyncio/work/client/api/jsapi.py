@@ -3,8 +3,8 @@
 
 import time
 
-from aiowe.client.api.base import BaseWeChatAPI
-from aiowe.utils import WeChatSigner
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import WeChatSigner
 
 
 class WeChatJSAPI(BaseWeChatAPI):

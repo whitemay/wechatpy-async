@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatMaterial(BaseWeChatAPI):

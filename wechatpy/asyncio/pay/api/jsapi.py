@@ -2,9 +2,9 @@
 import logging
 import time
 
-from aiowe.pay.api.base import BaseWeChatPayAPI
-from aiowe.pay.utils import calculate_signature
-from aiowe.utils import random_string, to_text
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay.utils import calculate_signature
+from wechatpy.asyncio.utils import random_string, to_text
 
 logger = logging.getLogger(__name__)
 

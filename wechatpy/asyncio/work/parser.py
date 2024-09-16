@@ -3,10 +3,10 @@
 
 import xmltodict
 
-from aiowe.work.events import EVENT_TYPES
-from aiowe.work.messages import MESSAGE_TYPES
-from aiowe.messages import UnknownMessage
-from aiowe.utils import to_text
+from wechatpy.asyncio.work.events import EVENT_TYPES
+from wechatpy.asyncio.work.messages import MESSAGE_TYPES
+from wechatpy.asyncio.messages import UnknownMessage
+from wechatpy.asyncio.utils import to_text
 
 
 def parse_message(xml):

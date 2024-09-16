@@ -16,18 +16,18 @@ from urllib.parse import quote
 import httpx
 import xmltodict
 
-from aiowe.client import WeChatComponentClient
-from aiowe.constants import WeChatErrorCode
-from aiowe.crypto import WeChatCrypto
-from aiowe.exceptions import (
+from wechatpy.asyncio.client import WeChatComponentClient
+from wechatpy.asyncio.constants import WeChatErrorCode
+from wechatpy.asyncio.crypto import WeChatCrypto
+from wechatpy.asyncio.exceptions import (
     APILimitedException,
     WeChatClientException,
     WeChatComponentOAuthException,
     WeChatOAuthException,
 )
-from aiowe.messages import COMPONENT_MESSAGE_TYPES, ComponentUnknownMessage
-from aiowe.session.memorystorage import MemoryStorage
-from aiowe.utils import to_text
+from wechatpy.asyncio.messages import COMPONENT_MESSAGE_TYPES, ComponentUnknownMessage
+from wechatpy.session.memorystorage import MemoryStorage
+from wechatpy.asyncio.utils import to_text
 
 logger = logging.getLogger(__name__)
 

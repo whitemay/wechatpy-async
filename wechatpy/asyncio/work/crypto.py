@@ -1,5 +1,5 @@
-from aiowe.crypto import BasePrpCrypto, BaseWeChatCrypto
-from aiowe.work.exceptions import InvalidCorpIdException
+from wechatpy.asyncio.crypto import BasePrpCrypto, BaseWeChatCrypto
+from wechatpy.asyncio.work.exceptions import InvalidCorpIdException
 
 
 class PrpCrypto(BasePrpCrypto):

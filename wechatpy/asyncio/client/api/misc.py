@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from operator import itemgetter
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatMisc(BaseWeChatAPI):
@@ -20,7 +20,7 @@ class WeChatMisc(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    res = client.misc.short_url('http://www.qq.com')
@@ -39,7 +39,7 @@ class WeChatMisc(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    ips = client.misc.get_wechat_ips()

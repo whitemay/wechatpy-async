@@ -10,7 +10,7 @@
 """
 import copy
 
-from aiowe.fields import BaseField, DateTimeField, FieldDescriptor, IntegerField, StringField
+from wechatpy.asyncio.fields import BaseField, DateTimeField, FieldDescriptor, IntegerField, StringField
 
 MESSAGE_TYPES = {}
 COMPONENT_MESSAGE_TYPES = {}

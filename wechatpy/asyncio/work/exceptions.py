@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe.exceptions import WeChatException
+from wechatpy.asyncio.exceptions import WeChatException
 
 
 class InvalidCorpIdException(WeChatException):

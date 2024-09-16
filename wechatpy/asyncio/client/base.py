@@ -6,10 +6,10 @@ import logging
 
 import httpx
 
-from aiowe.constants import WeChatErrorCode
-from aiowe.session.memorystorage import MemoryStorage
-from aiowe.exceptions import WeChatClientException, APILimitedException
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.constants import WeChatErrorCode
+from wechatpy.session.memorystorage import MemoryStorage
+from wechatpy.asyncio.exceptions import WeChatClientException, APILimitedException
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 logger = logging.getLogger(__name__)

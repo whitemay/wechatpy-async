@@ -9,9 +9,9 @@
 """
 import xmltodict
 
-from aiowe.messages import MESSAGE_TYPES, UnknownMessage
-from aiowe.events import EVENT_TYPES
-from aiowe.utils import to_text
+from wechatpy.asyncio.messages import MESSAGE_TYPES, UnknownMessage
+from wechatpy.asyncio.events import EVENT_TYPES
+from wechatpy.asyncio.utils import to_text
 
 
 def parse_message(xml):

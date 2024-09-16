@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe import messages
-from aiowe.fields import IntegerField, StringField
+from wechatpy.asyncio import messages
+from wechatpy.asyncio.fields import IntegerField, StringField
 
 MESSAGE_TYPES = {}
 

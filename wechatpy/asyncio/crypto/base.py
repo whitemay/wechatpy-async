@@ -6,8 +6,8 @@ import base64
 
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
-from aiowe.utils import to_text, to_binary, random_string
-from aiowe.crypto.pkcs7 import PKCS7Encoder
+from wechatpy.asyncio.utils import to_text, to_binary, random_string
+from wechatpy.asyncio.crypto.pkcs7 import PKCS7Encoder
 
 
 class BaseWeChatCipher:

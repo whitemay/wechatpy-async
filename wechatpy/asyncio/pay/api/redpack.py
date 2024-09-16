@@ -3,8 +3,8 @@
 import random
 from datetime import datetime
 
-from aiowe.pay.utils import get_external_ip
-from aiowe.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay.utils import get_external_ip
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
 
 
 class WeChatRedpack(BaseWeChatPayAPI):

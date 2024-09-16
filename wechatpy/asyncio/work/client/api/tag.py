@@ -2,7 +2,7 @@
 
 from typing import Optional, List, Dict, Any
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatTag(BaseWeChatAPI):

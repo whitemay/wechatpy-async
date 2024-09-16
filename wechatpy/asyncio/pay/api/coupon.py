@@ -3,7 +3,7 @@
 import random
 from datetime import datetime
 
-from aiowe.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
 
 
 class WeChatCoupon(BaseWeChatPayAPI):

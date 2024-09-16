@@ -2,7 +2,7 @@
 from operator import itemgetter
 
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatCard(BaseWeChatAPI):
@@ -534,7 +534,7 @@ class WeChatCard(BaseWeChatAPI):
         """
         获取卡券跳转外链
         """
-        from aiowe.utils import WeChatSigner
+        from wechatpy.asyncio.utils import WeChatSigner
 
         code = await self.decrypt_code(encrypt_code)
 

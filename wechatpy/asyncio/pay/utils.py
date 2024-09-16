@@ -8,7 +8,7 @@ import hmac
 import socket
 import logging
 
-from aiowe.utils import to_binary, to_text
+from wechatpy.asyncio.utils import to_binary, to_text
 
 logger = logging.getLogger(__name__)
 

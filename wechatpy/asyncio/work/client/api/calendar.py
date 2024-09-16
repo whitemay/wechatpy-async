@@ -3,7 +3,7 @@
 
 import operator as op
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatCalendar(BaseWeChatAPI):

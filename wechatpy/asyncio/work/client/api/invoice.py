@@ -13,7 +13,7 @@
 
 from typing import Dict, List
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 # 发票初始状态，未锁定
 INVOICE_REIMBURSE_INIT = "INVOICE_REIMBURSE_INIT"

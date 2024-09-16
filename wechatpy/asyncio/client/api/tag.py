@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from operator import itemgetter
 
-from aiowe.utils import to_text
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import to_text
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatTag(BaseWeChatAPI):
@@ -150,7 +150,7 @@ class WeChatTag(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    async for openid in client.tag.iter_tag_users(0):

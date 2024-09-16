@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe.utils import to_text
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import to_text
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatGroup(BaseWeChatAPI):

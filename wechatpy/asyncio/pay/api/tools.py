@@ -2,7 +2,7 @@
 
 from datetime import datetime, date
 
-from aiowe.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
 
 
 class WeChatTools(BaseWeChatPayAPI):

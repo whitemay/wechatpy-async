@@ -2,7 +2,7 @@
 
 from urllib.parse import quote
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatOAuth(BaseWeChatAPI):

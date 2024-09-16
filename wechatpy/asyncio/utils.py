@@ -58,7 +58,7 @@ def check_signature(token, signature, timestamp, nonce):
     signer = WeChatSigner()
     signer.add_data(token, timestamp, nonce)
     if signer.signature != signature:
-        from aiowe.exceptions import InvalidSignatureException
+        from wechatpy.asyncio.exceptions import InvalidSignatureException
 
         raise InvalidSignatureException()
 
@@ -77,7 +77,7 @@ def check_wxa_signature(session_key, raw_data, client_signature):
     str2sign = (raw_data + session_key).encode("utf-8")
     signature = hashlib.sha1(str2sign).hexdigest()
     if signature != client_signature:
-        from aiowe.exceptions import InvalidSignatureException
+        from wechatpy.asyncio.exceptions import InvalidSignatureException
 
         raise InvalidSignatureException()
 

@@ -5,7 +5,7 @@ from enum import IntEnum
 
 import httpx
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class FileType(IntEnum):

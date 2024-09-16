@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe import replies
-from aiowe.fields import IntegerField, TaskCardField
+from wechatpy.asyncio import replies
+from wechatpy.asyncio.fields import IntegerField, TaskCardField
 
 REPLY_TYPES = {}
 

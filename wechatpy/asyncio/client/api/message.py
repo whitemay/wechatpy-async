@@ -5,8 +5,8 @@ from urllib.parse import urlencode
 
 from optionaldict import optionaldict
 
-from aiowe.client.api.base import BaseWeChatAPI
-from aiowe.utils import random_string
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import random_string
 
 
 class WeChatMessage(BaseWeChatAPI):

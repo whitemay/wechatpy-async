@@ -4,7 +4,7 @@ import dataclasses
 from typing import Dict, Optional
 from dataclasses import dataclass
 
-from aiowe.utils import random_string
+from wechatpy.asyncio.utils import random_string
 
 
 @dataclass

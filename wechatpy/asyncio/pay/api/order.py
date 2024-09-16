@@ -4,11 +4,11 @@ import time
 import random
 from datetime import datetime, timedelta
 
-from aiowe.utils import timezone
-from aiowe.pay.utils import get_external_ip
-from aiowe.pay.api.base import BaseWeChatPayAPI
-from aiowe.utils import random_string, to_text
-from aiowe.pay.utils import calculate_signature
+from wechatpy.asyncio.utils import timezone
+from wechatpy.asyncio.pay.utils import get_external_ip
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.utils import random_string, to_text
+from wechatpy.asyncio.pay.utils import calculate_signature
 
 
 class WeChatOrder(BaseWeChatPayAPI):

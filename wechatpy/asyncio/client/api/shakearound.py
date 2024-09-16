@@ -5,7 +5,7 @@ from datetime import datetime
 
 from optionaldict import optionaldict
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatShakeAround(BaseWeChatAPI):

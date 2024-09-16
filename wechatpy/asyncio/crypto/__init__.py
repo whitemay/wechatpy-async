@@ -14,14 +14,14 @@ import time
 import base64
 import hashlib
 
-from aiowe.utils import to_text, to_binary, WeChatSigner
-from aiowe.exceptions import (
+from wechatpy.asyncio.utils import to_text, to_binary, WeChatSigner
+from wechatpy.asyncio.exceptions import (
     InvalidAppIdException,
     InvalidMchIdException,
     InvalidSignatureException,
 )
-from aiowe.crypto.base import BasePrpCrypto, WeChatCipher, BaseRefundCrypto
-from aiowe.crypto.pkcs7 import PKCS7Encoder
+from wechatpy.asyncio.crypto.base import BasePrpCrypto, WeChatCipher, BaseRefundCrypto
+from wechatpy.asyncio.crypto.pkcs7 import PKCS7Encoder
 
 
 def _get_signature(token, timestamp, nonce, encrypt):
@@ -54,7 +54,7 @@ class BaseWeChatCrypto:
         return pc.decrypt(echo_str, self._id)
 
     def _encrypt_message(self, msg, nonce, timestamp=None, crypto_class=None):
-        from aiowe.replies import BaseReply
+        from wechatpy.asyncio.replies import BaseReply
 
         xml = """<xml>
 <Encrypt><![CDATA[{encrypt}]]></Encrypt>

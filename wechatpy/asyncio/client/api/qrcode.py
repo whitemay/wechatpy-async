@@ -2,7 +2,7 @@
 from typing import Any
 from urllib.parse import quote
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatQRCode(BaseWeChatAPI):
@@ -18,7 +18,7 @@ class WeChatQRCode(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    res = client.qrcode.create({
@@ -51,7 +51,7 @@ class WeChatQRCode(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    res = client.qrcode.show('ticket data')
@@ -75,7 +75,7 @@ class WeChatQRCode(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    url = client.qrcode.get_url('ticket data')

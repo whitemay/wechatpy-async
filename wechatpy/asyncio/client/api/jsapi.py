@@ -14,9 +14,9 @@ import hashlib
 import time
 from typing import Optional
 
-from aiowe.utils import WeChatSigner, random_string
-from aiowe.client.api.base import BaseWeChatAPI
-from aiowe.schemes import JsApiCardExt
+from wechatpy.asyncio.utils import WeChatSigner, random_string
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.schemes import JsApiCardExt
 
 
 class WeChatJSAPI(BaseWeChatAPI):

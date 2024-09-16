@@ -3,8 +3,8 @@
 
 import time
 
-from aiowe.client.base import BaseWeChatClient
-from aiowe.client import api
+from wechatpy.asyncio.client.base import BaseWeChatClient
+from wechatpy.asyncio.client import api
 
 
 class WeChatClient(BaseWeChatClient):

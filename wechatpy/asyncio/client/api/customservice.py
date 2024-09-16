@@ -7,8 +7,8 @@ from operator import itemgetter
 from urllib.parse import quote
 
 from optionaldict import optionaldict
-from aiowe.utils import to_binary
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import to_binary
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatCustomService(BaseWeChatAPI):

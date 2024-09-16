@@ -2,7 +2,7 @@
 import operator
 from typing import Dict, List, Tuple
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatTemplate(BaseWeChatAPI):

@@ -4,8 +4,8 @@
 import base64
 import urllib
 
-from aiowe.client.api.base import BaseWeChatAPI
-from aiowe.utils import to_binary, to_text
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.utils import to_binary, to_text
 
 
 class WeChatDevice(BaseWeChatAPI):

@@ -10,7 +10,7 @@
 """
 from typing import Dict, List
 
-from aiowe.fields import (
+from wechatpy.asyncio.fields import (
     Base64DecodeField,
     BaseField,
     DateTimeField,
@@ -18,7 +18,7 @@ from aiowe.fields import (
     IntegerField,
     StringField,
 )
-from aiowe.messages import BaseMessage
+from wechatpy.asyncio.messages import BaseMessage
 
 EVENT_TYPES = {}
 

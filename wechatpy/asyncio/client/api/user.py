@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from operator import itemgetter
 
-from aiowe.client.api.base import BaseWeChatAPI
+from wechatpy.asyncio.client.api.base import BaseWeChatAPI
 
 
 class WeChatUser(BaseWeChatAPI):
@@ -18,7 +18,7 @@ class WeChatUser(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    user = client.user.get('openid')
@@ -44,7 +44,7 @@ class WeChatUser(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    followers = client.user.get_followers()
@@ -66,7 +66,7 @@ class WeChatUser(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    async for openid in client.user.iter_followers():
@@ -96,7 +96,7 @@ class WeChatUser(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    client.user.update_remark('openid', 'Remark')
@@ -143,7 +143,7 @@ class WeChatUser(BaseWeChatAPI):
 
         使用示例::
 
-        >>>    from aiowe import WeChatClient
+        >>>    from wechatpy.asyncio import WeChatClient
         >>>
         >>>    client = WeChatClient('appid', 'secret')
         >>>    users = client.user.get_batch(['openid1', 'openid2'])

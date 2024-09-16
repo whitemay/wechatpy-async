@@ -2,8 +2,8 @@
 from urllib.parse import quote
 from typing import Any, Dict
 
-from aiowe.pay import calculate_signature_hmac
-from aiowe.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay import calculate_signature_hmac
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
 
 
 class WeChatAppAuth(BaseWeChatPayAPI):

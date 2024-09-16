@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from aiowe.pay.api.base import BaseWeChatPayAPI
+from wechatpy.asyncio.pay.api.base import BaseWeChatPayAPI
 
 
 class WeChatRefund(BaseWeChatPayAPI):
