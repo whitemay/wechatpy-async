@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "wechatpy"
-version = "2.0.0.alpha26"
-description = "WeChat SDK for Python"
+version = "2.0.1"
+description = "WeChat SDK for Python, with async support"
 authors = ["messense <messense@icloud.com>"]
 license = "MIT"
 readme = 'README.md'
@@ -13,10 +13,11 @@ classifiers = [
     "Operating System :: POSIX",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3.6",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Intended Audience :: Developers",
@@ -24,8 +25,8 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Utilities"
 ]
-repository = "https://github.com/wechatpy/wechatpy.git"
-homepage = "https://github.com/wechatpy/wechatpy"
+repository = "https://github.com/whitemay/wechatpy-async.git"
+homepage = "https://github.com/whitemay/wechatpy-async"
 documentation = "http://docs.wechatpy.org"
 
 [tool.poetry.dependencies]
@@ -34,10 +35,9 @@ requests = ">=2.31.0"
 xmltodict = ">=0.13.0"
 optionaldict = ">=0.1.0"
 python-dateutil = ">=2.8.2"
-cryptography = ">=41.0.7"
-dataclasses = "^0.7"
+cryptography = ">=41.0.7, <42.0.0"
 requests-pkcs12 = "^1.22"
-httpx = "^0.27.2"
+httpx = ">=0.25.0"
 httpx-pkcs12 = "^1.0.3"
 
 [tool.poetry.dev-dependencies]
@@ -49,7 +49,7 @@ redis = "^3.5.3"
 pymemcache = "^3.5.0"
 
 [tool.poetry.urls]
-issues = "https://github.com/whitemay/wechatpy/issues"
+issues = "https://github.com/whitemay/wechatpy-async/issues"
 
 [tool.black]
 line-length = 120
