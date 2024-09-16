@@ -32,12 +32,12 @@ master: [【阅读文档】](https://wechatpy.readthedocs.org/zh_CN/master/) [�
 推荐使用 pip 进行安装:
 
 ```bash
-pip install wechatpy
+pip install git+https://github.com/whitemay/wechatpy-async.git
 ```
 
 升级版本：
 
-    pip install -U wechatpy
+    pip install -U git+https://github.com/whitemay/wechatpy-async.git
 
 
 ## 使用示例
